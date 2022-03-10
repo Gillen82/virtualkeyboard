@@ -1,0 +1,95 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: antiquewhite;
+	font-family: 'Inter';
+	letter-spacing: 2px;
+}
+
+.typed {
+	background-color: #fff;
+	width: 40%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.list {
+	width: 40%;
+	height: 200px;
+	margin: 20px auto;
+	background-color: #ddd;
+	padding: 20px;
+	box-shadow: #000 1px 1px 5px;
+}
+
+.list ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.keyboard {
+	width: 100%;
+	padding: 10px;
+	background-color: #000;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	background-color: #444;
+}
+
+.row:first-child {
+	padding-top: 10px;
+}
+
+.row:last-child {
+	padding-bottom: 10px;
+}
+
+.key {
+	min-width: 30px;
+	min-height: 30px;
+	color: #fff;
+	background-color: #666;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8rem;
+}
+
+.key:hover {
+	cursor: pointer;
+	background-color: #888;
+}
+
+.space {
+	width: 40%;
+}
+
+.enter,
+.shift {
+	width: 10%;
+}
+
+/* LOWERCASE */
+.lower {
+	text-transform: lowercase;
+}
